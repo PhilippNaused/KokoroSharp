@@ -43,7 +43,7 @@ public sealed class KokoroPlayback : IDisposable {
                     stream.Dispose();
                 }
             }
-        }) { IsBackground = true }.Start();
+        }) { IsBackground = true, Name = "KokoroPlaybackThread" }.Start();
     }
 
     /// <summary> Enqueues specified audio samples for playback. They will be played once all previously queued samples have been played. </summary>

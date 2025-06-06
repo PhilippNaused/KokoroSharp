@@ -193,7 +193,7 @@ public static partial class Tokenizer {
     #region Regexes
 
     [GeneratedRegex(@"\b(https?://)?(www\.)?[a-zA-Z0-9]+\b|\b[a-zA-Z0-9]+\.(com|net|org|io|edu|gov|mil|info|biz|co|us|uk|ca|de|fr|jp|au|cn|ru|gr)\b")]
-                                                                     private static partial Regex WebUrl();        // URLs: https://www.example.com or example.com
+                                                                     private static partial Regex WebUrl();
     [GeneratedRegex(@"^```[A-Za-z]{0,10}\n([\s\S]*?)\n```(?:\n|$)", RegexOptions.Multiline)]
                                                                      private static partial Regex CodeBlock();     // Markdown code blocks: ```csharp\ncode\n```
     [GeneratedRegex(@"\[(.*?)\]\(.*?\)")]                            private static partial Regex HeaderLink();    // Markdown links: [Header](link)

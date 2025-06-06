@@ -36,4 +36,10 @@
     <ItemGroup>
         <None Include="KokoroSharp.targets" Pack="true" PackagePath="build/" />
     </ItemGroup>
+
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="Kokoro.Tests" />
+    </ItemGroup>
+
 </Project>

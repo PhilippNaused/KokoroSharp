@@ -34,7 +34,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <InternalsVisibleTo Include="Kokoro.Tests" />
+        <InternalsVisibleTo Include="KokoroSharp.Tests" />
     </ItemGroup>
 
 </Project>

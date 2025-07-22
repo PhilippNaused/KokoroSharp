@@ -1,4 +1,8 @@
-﻿namespace KokoroSharp;
+﻿#:project KokoroSharp\KokoroSharp.csproj
+#:package Microsoft.ML.OnnxRuntime.Gpu@1.22.0
+#nullable disable
+
+namespace KokoroSharp;
 
 using KokoroSharp.Core;
 using KokoroSharp.Processing;
